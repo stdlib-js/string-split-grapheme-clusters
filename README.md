@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Split a string by its grapheme cluster breaks.
+> Split a string by its [grapheme cluster][unicode-text-segmentation] breaks.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -54,7 +54,7 @@ var splitGraphemeClusters = require( '@stdlib/string-split-grapheme-clusters' );
 
 #### splitGraphemeClusters( str )
 
-Splits a string by its grapheme cluster breaks.
+Splits a string by its [grapheme cluster][unicode-text-segmentation] breaks.
 
 ```javascript
 var out = splitGraphemeClusters( 'café' );
@@ -87,20 +87,19 @@ out = splitGraphemeClusters( '🍕🍕🍕' );
 ```javascript
 var splitGraphemeClusters = require( '@stdlib/string-split-grapheme-clusters' );
 
-var str = 'abc';
-var out = splitGraphemeClusters( str );
+var out = splitGraphemeClusters( 'abc' );
 // returns [ 'a', 'b', 'c' ]
 
-str = 'Iñtërnâtiônàlizætiøn';
-out = splitGraphemeClusters( str );
+out = splitGraphemeClusters( 'Iñtërnâtiônàlizætiøn' );
 // returns [ 'I', 'ñ', 't', 'ë', 'r', 'n', 'â', 't', 'i', 'ô', 'n', 'à', 'l', 'i', 'z', 'æ', 't', 'i', 'ø', 'n' ]
 
-str = '\uD834\uDD1E';
-out = splitGraphemeClusters( str );
+out = splitGraphemeClusters( '\uD834\uDD1E' );
 // returns [ '𝄞' ]
 
-str = '';
-out = splitGraphemeClusters( str );
+out = splitGraphemeClusters( '! !' );
+// returns [ '!', ' ', '!' ]
+
+out = splitGraphemeClusters( '' );
 // returns []
 ```
 
@@ -180,6 +179,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-split-grapheme-clusters/main/LICENSE
+
+[unicode-text-segmentation]: http://www.unicode.org/reports/tr29/
 
 </section>
 
