@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-split-grapheme-clusters",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Split a string by its grapheme cluster breaks.",
   "license": "Apache-2.0",
   "author": {
