@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-string": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/string-next-grapheme-cluster-break": "^0.0.x"
   },
   "devDependencies": {
