@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-split-grapheme-clusters/tags). For example,
+
+```javascript
 import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@v0.1.0-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ out = splitGraphemeClusters( '🍕🍕🍕' );
 <body>
 <script type="module">
 
-import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@v0.1.0-esm/index.mjs';
+import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@esm/index.mjs';
 
 var out = splitGraphemeClusters( 'abc' );
 // returns [ 'a', 'b', 'c' ]
