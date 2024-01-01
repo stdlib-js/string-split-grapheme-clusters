@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var fromCodePoint = require( '@stdlib/string-from-code-point' );
 var UNICODE_MAX = require( '@stdlib/constants-unicode-max' );
 var randu = require( '@stdlib/random-base-randu' );
