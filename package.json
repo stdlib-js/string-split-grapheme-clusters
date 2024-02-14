@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-split-grapheme-clusters",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Split a string by its grapheme cluster breaks.",
   "license": "Apache-2.0",
   "author": {
@@ -37,9 +37,9 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-string": "^0.1.1",
-    "@stdlib/string-format": "^0.1.1",
-    "@stdlib/string-next-grapheme-cluster-break": "^0.1.0"
+    "@stdlib/assert-is-string": "^0.2.0",
+    "@stdlib/string-format": "^0.2.0",
+    "@stdlib/string-next-grapheme-cluster-break": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-array": "^0.1.1",
