@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@deno/mod.js';
+import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@v0.2.1-deno/mod.js';
 ```
 
 #### splitGraphemeClusters( str )
@@ -88,7 +88,7 @@ out = splitGraphemeClusters( '🍕🍕🍕' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@deno/mod.js';
+import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@v0.2.1-deno/mod.js';
 
 var out = splitGraphemeClusters( 'abc' );
 // returns [ 'a', 'b', 'c' ]
