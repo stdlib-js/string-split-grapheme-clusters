@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@esm/index.mjs';
+import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@v0.2.2-esm/index.mjs';
 ```
 
 #### splitGraphemeClusters( str )
@@ -93,7 +93,7 @@ out = splitGraphemeClusters( '🍕🍕🍕' );
 <body>
 <script type="module">
 
-import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@esm/index.mjs';
+import splitGraphemeClusters from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-split-grapheme-clusters@v0.2.2-esm/index.mjs';
 
 var out = splitGraphemeClusters( 'abc' );
 // returns [ 'a', 'b', 'c' ]
